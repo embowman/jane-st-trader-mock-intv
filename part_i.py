@@ -143,7 +143,7 @@ def main():
     graph_returns()
 
     min_accepted_face_value, avg_earnings = get_answers()
-    print(f"The player should roll until the d20 shows {min_accepted_face_value}")
+    print(f"The player should roll until the d20 shows {min_accepted_face_value} or above")
     print(f"The player's average earnings would be {avg_earnings}")
 
 
